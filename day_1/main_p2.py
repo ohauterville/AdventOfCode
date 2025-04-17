@@ -35,7 +35,7 @@ def get_occurrences(lst, number):
 
 if __name__ == "__main__":
     # Read input from the file
-    list1, list2 = get_input("../input/input.txt")
+    list1, list2 = get_input("input.txt")
 
     similitude = 0
 
