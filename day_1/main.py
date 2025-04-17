@@ -1,5 +1,5 @@
 """ 
-AdventCode day1 
+AdventOfCode Day 1 
 author: Olivier Hauterville
 """
 def get_input(input_filename:str):
@@ -36,7 +36,7 @@ def get_and_remove_smallest_in_place(data_list):
 
 if __name__ == "__main__":
     # Example usage
-    input_filename = 'input.txt'  # Replace with your actual input file name
+    input_filename = "../input/input.txt"  # Replace with your actual input file name
     list1, list2 = get_input(input_filename)
     print("List 1:", list1[:5], "...")  # Print first 5 elements for brevity
     print("List 2:", list2[:5], "...")
